@@ -67,6 +67,7 @@ func main() {
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
 	fmt.Println("Length string: ", len(string(netBytes)))
+	fmt.Println("Output: ", string(netBytes))
 
 	//json
 	start = time.Now()
@@ -88,6 +89,7 @@ func main() {
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
 	fmt.Println("Length string: ", len(string(bytesJson)))
+	fmt.Println("Output: ", string(bytesJson))
 	//json
 
 	//yaml
@@ -110,6 +112,7 @@ func main() {
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
 	fmt.Println("Length string: ", len(string(bytesYaml)))
+	fmt.Println("Output: ", string(bytesYaml))
 	//yaml
 
 	//yaml
@@ -133,6 +136,7 @@ func main() {
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
 	fmt.Println("Length string: ", len(string(bytesMsgPack)))
+	fmt.Println("Output: ", string(bytesMsgPack))
 	//yaml
 
 	//avro
@@ -164,6 +168,7 @@ func main() {
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
 	fmt.Println("Length string: ", len(string(bytesAvro)))
+	fmt.Println("Output: ", string(bytesAvro))
 	//avro
 
 	//protobuf
@@ -195,6 +200,7 @@ func main() {
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
 	fmt.Println("Length string: ", len(string(out)))
+	fmt.Println("Output: ", string(out))
 	//protobuf
 
 	//xml
@@ -226,6 +232,7 @@ func main() {
 	fmt.Println("XML serialization")
 	fmt.Println("Time serialization: ", durationSer)
 	fmt.Println("Time deserialization: ", durationDes)
-	fmt.Println("Length string: ", len(string(bytesMsgPack)))
+	fmt.Println("Length string: ", len(string(bytesXml)))
+	fmt.Println("Output: ", string(bytesXml))
 	//xml
 }

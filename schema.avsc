@@ -1,0 +1,27 @@
+{
+  "name": "MyClass",
+  "type": "record",
+  "namespace": "com.acme.avro",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "strData",
+      "type": "string"
+    },
+    {
+      "name": "floatData",
+      "type": "float"
+    },
+    {
+      "name": "dataArray",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {"name": "dataMap", "type": {"type": "map", "values": "int"}}
+  ]
+}

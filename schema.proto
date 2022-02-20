@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "serialization/models";
+
+message message {
+  int32 id = 1;
+  string strData = 2;
+  float floatData = 3;
+  repeated string dataArray = 4;
+
+  map<string, int32> dataMap = 5;
+
+}

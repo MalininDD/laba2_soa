@@ -1,4 +1,7 @@
 # laba2_soa
+
+Run: go run main.go
+
 Results:
 
 Go serialization
